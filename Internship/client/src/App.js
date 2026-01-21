@@ -3,7 +3,7 @@ import axios from "axios";
 import ProductCard from "./components/ProductCard";
 import "./index.css";
 
-const API = "http://localhost:8000/api/products";
+const API = "http://localhost:5000/api/products";
 
 export default function App() {
   const [products, setProducts] = useState([]);
